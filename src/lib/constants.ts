@@ -6,7 +6,7 @@ export const MAPS_URL =
 export const MAPS_EMBED =
   "https://www.google.com/maps?q=" +
   encodeURIComponent("Av. Rio Branco, 639, Caxias do Sul - RS") +
-  "&output=embed";
+  "&z=17&hl=pt-BR&output=embed";
 export const BRANDS = ["Apple", "Samsung", "Motorola", "Xiaomi", "LG"];
 export const NAV = [
   { label: "Início", href: "#inicio" },
