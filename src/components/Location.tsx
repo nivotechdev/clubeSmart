@@ -36,9 +36,9 @@ export default function Location() {
           <iframe
             title="Mapa - Clube Smart Caxias"
             src={MAPS_EMBED}
-            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="h-72 w-full border-0 grayscale invert-[.9] contrast-[.9] md:h-full md:min-h-[360px]"
+            className="block h-80 w-full border-0 md:h-full md:min-h-[360px]"
+            allowFullScreen
           />
         </div>
       </div>
